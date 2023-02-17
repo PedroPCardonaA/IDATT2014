@@ -1,0 +1,7 @@
+server
+
+java -D"javax.net.ssl.trustStore"="examplestore" -D"javax.net.ssl.trustStorePassword"="password" JavaSSLServer
+
+client
+
+java -D"javax.net.ssl.trustStore"="examplestore" -D"javax.net.ssl.trustStorePassword"="password" JavaSSLClient
